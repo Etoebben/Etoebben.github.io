@@ -1,23 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
+body{
+    margin: 0px;
+}
 
 p {
                 background-color: red; 
                 font-family: "Comic Sans MS"; 
                 text-align: center;
 }
-           
 
-
-#header {
-                align-content: center;
-                width: 1095px;
-                height: 500px;
-                border: 20px dotted lightblue;
-                border-radius: 20px;
-                padding: 20px;
-                margin: 20px auto;
+.image_bottom{
+    width: 100%;
+    height: 100%;
 }
 
-            
-      
+.image_top{
+    width: 100%;
+    height: 100%;
+}
+           
+
+#header {
+                text-align: center; 
+                align-content: center;
+                width: auto;
+                font-size: 35px;
+                
+              background-color: lightblue;
+              
+                padding: 0px;
+                margin: 0px;
+}
+
+ 
+#background {
+  position:relative;
+  height:100%;
+  width:100%;
+  margin:0 auto;
+}
+
+#background img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#background img.image_top:hover {
+  opacity:0;
+}
