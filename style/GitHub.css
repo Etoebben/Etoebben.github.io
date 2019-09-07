@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+p {
+                background-color: red; 
+                font-family: "Comic Sans MS"; 
+                text-align: center;
+}
+           
+
+
+#header {
+                align-content: center;
+                width: 1095px;
+                height: 500px;
+                border: 20px dotted lightblue;
+                border-radius: 20px;
+                padding: 20px;
+                margin: 20px auto;
+}
+
+            
+      
